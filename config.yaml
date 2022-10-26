@@ -1,0 +1,44 @@
+baseURL: /
+languageCode: en-us
+title: MQSH
+theme: hugo-hero-theme
+module:
+  hugoVersion:
+    extended: yes
+    min: 0.92.0
+params:
+  google_analytics_id: ''
+  homepage_meta_tags:
+    meta_description: TEST is a multipurpose Hugo theme with fullscreen hero images
+      and page sections. It contains content types for a business or portfolio site.
+    meta_og_description: TEST is a multipurpose Hugo theme with fullscreen hero images
+      and page sections. It contains content types for a business or portfolio site.
+    meta_og_image: https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png
+    meta_og_title: Hugo Hero Theme
+    meta_og_type: website
+    meta_og_url: https://hugo-hero.netlify.app
+  logo:
+    alt: Hugo Hero
+    desktop: images/mqsh.png
+    desktop_height: 29px
+    desktop_width: 217px
+    mobile: images/mqsh.png
+    mobile_height: 36px
+    mobile_width: 36px
+menu:
+  main:
+    - name: À propos
+      url: /apropos/
+      weight: 1
+    - name: Colloque annuel
+      url: /colloque/
+      weight: 2
+    - name: Archives
+      url: /archives/
+      weight: 3
+    - name: Nous joindre
+      url: /contact/
+      weight: 4
+permalinks:
+  pages: /:filename/
+  post: /:year/:month/:day/:slug/
